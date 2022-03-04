@@ -1,0 +1,138 @@
+body{
+    background-color: #74b9ff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo{
+    width: 20%;
+    height: 3.5rem;
+}
+
+
+#mainNavbar .nav-link{
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #fab1a0;
+}
+
+.navbar.scrolled {
+    background: #74b9ff;
+}
+
+.nav-item{
+    padding-right: 2rem;
+}
+
+#first{
+    width: 100%;
+    height: 30rem;
+    background-image: url(images/pexels-ny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentCont{
+    text-align: center;
+}
+
+.contentCont h1{
+    color: white;
+}
+
+.contentCont .btn{
+    border: 2px solid white;
+    color: white;
+    margin-top: 1rem;
+}
+
+.contentCont .btn:hover{
+    color: #fab1a0;
+}
+
+.writeup{
+    padding: 1.5rem;
+}
+
+.writeup h2{
+    font-size: xx-large;
+}
+
+.writeup h3{
+    font-size: large;
+}
+
+.writeup .btn{
+    border: 2px solid white;
+    color: white;
+    margin-top: 1rem;
+}
+
+.writeup .btn:hover{
+    color: #fab1a0;
+}
+/* 
+--------------------------------------------------------- */
+/* CONTACT US CSS */
+#top{
+    width: 100%;
+    height: 40rem;
+    background-image: url(images/pexels-la2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#smlCont{
+    border: 4px solid white;
+    background-color: #74b9ff;
+    text-align: center;
+}
+
+.callOur{
+    color: white;
+}
+/* 
+-------------------------------------------------------------
+LISTINGS */
+
+.topHeader{
+    margin-top: 1rem;
+}
+
+.topHeader:nth-child(1){
+    margin-top: 3rem;
+}
+
+.topHeader h2{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.houseListing{
+    width: 100%;
+    height: 5rem;
+    box-sizing: border-box;
+}
+
+.smallConta{
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.parentDiv{
+    border: 2px solid white;
+    box-sizing: border-box;
+}
